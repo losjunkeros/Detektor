@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Detektor pojazdów uprzywilejowanych</string>
+    <string name="title">DETEKTOR</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="help">Pomoc</string>
+    <string name="help2">POMOC</string>
+    <string name="help3">Jeśli aplikacja nie działa poprawnie, upewnij się, że nadano jej uprawnienia dostępu do mikrofonu w ustawieniach urządzenia (Ustawienia >> Aplikacje >> Detektor pojazdów uprzywilejowanych >> Uprawnienia). \n\nJeśli aplikacja samoistnie wyłącza się po pewnym czasie sprawdź, czy w ustawieniach zasilania włączona jest opcja autouruchamiania (Ustawienia >> Zarządzanie zasilaniem >> Menedżer autouruchamiania). \n\nAby moduł HC-06 wyświetlał się na liście sparowanych urządzeń musi zostać wcześniej sparowany w ustawieniach Bluetooth (hasło do modułu: 1234).</string>
+    <string name="title2">Połącz się z modułem HC-06.</string>
+    <string name="paired">Pokaż sparowane</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="description">Naciśnięcie przycisku START włącza detektor: od tego momentu urządzenie powinno informować, gdy wykryty zostanie nadjeżdżający pojazd uprzywilejowany. \nPrzycisk STOP zatrzymuje działanie detektora.</string>
+    <string name="description2">Domyślnie urządzenie zacznie wibrować, gdy wykryty zostanie odpowiedni sygnał. \nPo połączeniu z modułem HC-06 wibracje zostaną zastąpione świeceniem diod. \nWybierz moduł HC-06 z listy sparowanych urządzeń:</string>
+    <string name="author">Autor: Tomasz Junker</string>
+</resources>

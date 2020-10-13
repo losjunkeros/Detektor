@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/activity_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".Bluetooth">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title2"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description2"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="17sp"/>
+
+        <Button
+            android:text="@string/paired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPaired"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:text="@string/disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDisconnect"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/btnPaired"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:id="@+id/listView"
+            android:layout_below="@+id/btnPaired"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+        </ListView>
+    </RelativeLayout>
+</ScrollView>
